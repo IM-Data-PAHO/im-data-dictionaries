@@ -1,0 +1,46 @@
+---
+title: "Data Dictionary for Routine IM"
+author: "FPL/IM"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+documentclass: book
+classoption: openany
+bibliography:
+- book.bib
+- packages.bib
+description: null
+link-citations: yes
+github-repo: "rstudio/bookdown-demo"
+site: bookdown::bookdown_site
+---
+
+# About
+
+PAHO IM Information Systems and Data Quality generalized data dictionary. This is a work in progress.
+
+## How to use
+
+Navigate to the available data dictionaries on the left side index menu by clicking on them.
+
+Each element of data inside a dictionary has where applicable:
+
+-   Name of the variable as the title
+
+-   description of the variable
+
+-   Field type
+
+-   Field length
+
+-   Coding of the variable
+
+-   Missing data coding
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

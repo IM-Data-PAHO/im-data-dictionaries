@@ -1,0 +1,6 @@
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Data table "
+book_filename: "IM Information Systems and Data Quality_Data Dictionary"
+output_dir: "docs"

@@ -1,0 +1,108 @@
+# Reporte de Resumen
+Starting on 2020, the FPL/IM team started requesting month to month information for DPT1, DPT3 and MMR1 Vaccines in order to better gauge the impact of the COVID-19 pandemic on the routine immunization doses administered.
+
+This summary report is built using monthly data by country and has the following variables:
+
+## country
+Description: Official name of the country in English.  
+Field type: Character string  
+Length: Unspecified  
+Data missing coding: *\<blank\>* 
+
+Examples: Anguila, Bermuda, Venezuela  
+
+## countryCode
+
+Description: Official ISO 3 Letter code for the country.  
+Field type: Character string   
+Length: 3 Char  
+Data missing coding: *\<blank\>* 
+
+Examples: AIA, BMU, VEN  
+
+## month
+
+Description; Month name in spanish  
+Field type: Character string pre-codified  
+Length: Unspecified  
+Data missing coding: *\<blank\>* 
+
+### Coding
+
+1. **enero**: january
+2. **febrero**: february
+3. **marzo**: march
+4. **abril**: april
+5. **mayo**: may
+6. **junio**: june
+7. **julio**: july
+8. **agosto**: august
+9. **septiembre**: september
+10. **octubre**: october
+11. **noviembre**: november
+12. **december**: diciembre
+
+
+## dpt1_2019
+
+Description; Number of DPT1 vaccine doses administered by month in the year 2019  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## dpt3_2019
+
+Description; Number of DPT3 vaccine doses administered by month in the year 2019  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## mmr1_2019
+
+Description; Number of mmr1 vaccine doses administered by month in the year 2019  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## dpt1_2020
+
+Description; Number of DPT1 vaccine doses administered by month in the year 2020  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## dpt3_2020
+
+Description; Number of DPT3 vaccine doses administered by month in the year 2020  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## mmr1_2020
+
+Description; Number of mmr1 vaccine doses administered by month in the year 2020  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+
+## dpt1_2021
+
+Description; Number of DPT1 vaccine doses administered by month in the year 2021  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## dpt3_2021
+
+Description; Number of DPT3 vaccine doses administered by month in the year 2021    
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## mmr1_2021
+
+Description; Number of mmr1 vaccine doses administered by month in the year 2021  
+Field type: Integer  
+Length: Unspecified  
+Data missing coding: *\<blank\>*  

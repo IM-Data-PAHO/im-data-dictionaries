@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Data table 2 Reporte de Resumen | Data Dictionary for Routine IM</title>
+  <meta name="description" content="Data table 2 Reporte de Resumen | Data Dictionary for Routine IM" />
+  <meta name="generator" content="bookdown 0.29.3 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Data table 2 Reporte de Resumen | Data Dictionary for Routine IM" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Data table 2 Reporte de Resumen | Data Dictionary for Routine IM" />
+  
+  
+  
+
+<meta name="author" content="FPL/IM" />
+
+
+<meta name="date" content="2022-10-31" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a></li>
+<li class="chapter" data-level="2" data-path="reporte-de-resumen.html"><a href="reporte-de-resumen.html"><i class="fa fa-check"></i><b>2</b> Reporte de Resumen</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Dictionary for Routine IM</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="reporte-de-resumen" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Data table 2</span> Reporte de Resumen<a href="reporte-de-resumen.html#reporte-de-resumen" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Starting on 2020, the FPL/IM team started requesting month to month information for DPT1, DPT3 and MMR1 Vaccines in order to better gauge the impact of the COVID-19 pandemic on the routine immunization doses administered.</p>
+<p>This summary report is built using monthly data by country and has the following variables:</p>
+<div id="country" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> country<a href="reporte-de-resumen.html#country" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Official name of the country in English.<br />
+Field type: Character string<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+<p>Examples: Anguila, Bermuda, Venezuela</p>
+</div>
+<div id="countrycode" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> countryCode<a href="reporte-de-resumen.html#countrycode" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Official ISO 3 Letter code for the country.<br />
+Field type: Character string<br />
+Length: 3 Char<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+<p>Examples: AIA, BMU, VEN</p>
+</div>
+<div id="month" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> month<a href="reporte-de-resumen.html#month" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Month name in spanish<br />
+Field type: Character string pre-codified<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+<div id="coding" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Coding<a href="reporte-de-resumen.html#coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><strong>enero</strong>: january</li>
+<li><strong>febrero</strong>: february</li>
+<li><strong>marzo</strong>: march</li>
+<li><strong>abril</strong>: april</li>
+<li><strong>mayo</strong>: may</li>
+<li><strong>junio</strong>: june</li>
+<li><strong>julio</strong>: july</li>
+<li><strong>agosto</strong>: august</li>
+<li><strong>septiembre</strong>: september</li>
+<li><strong>octubre</strong>: october</li>
+<li><strong>noviembre</strong>: november</li>
+<li><strong>december</strong>: diciembre</li>
+</ol>
+</div>
+</div>
+<div id="dpt1_2019" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> dpt1_2019<a href="reporte-de-resumen.html#dpt1_2019" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of DPT1 vaccine doses administered by month in the year 2019<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="dpt3_2019" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> dpt3_2019<a href="reporte-de-resumen.html#dpt3_2019" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of DPT3 vaccine doses administered by month in the year 2019<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="mmr1_2019" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> mmr1_2019<a href="reporte-de-resumen.html#mmr1_2019" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of mmr1 vaccine doses administered by month in the year 2019<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="dpt1_2020" class="section level2 hasAnchor" number="2.7">
+<h2><span class="header-section-number">2.7</span> dpt1_2020<a href="reporte-de-resumen.html#dpt1_2020" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of DPT1 vaccine doses administered by month in the year 2020<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="dpt3_2020" class="section level2 hasAnchor" number="2.8">
+<h2><span class="header-section-number">2.8</span> dpt3_2020<a href="reporte-de-resumen.html#dpt3_2020" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of DPT3 vaccine doses administered by month in the year 2020<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="mmr1_2020" class="section level2 hasAnchor" number="2.9">
+<h2><span class="header-section-number">2.9</span> mmr1_2020<a href="reporte-de-resumen.html#mmr1_2020" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of mmr1 vaccine doses administered by month in the year 2020<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="dpt1_2021" class="section level2 hasAnchor" number="2.10">
+<h2><span class="header-section-number">2.10</span> dpt1_2021<a href="reporte-de-resumen.html#dpt1_2021" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of DPT1 vaccine doses administered by month in the year 2021<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="dpt3_2021" class="section level2 hasAnchor" number="2.11">
+<h2><span class="header-section-number">2.11</span> dpt3_2021<a href="reporte-de-resumen.html#dpt3_2021" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of DPT3 vaccine doses administered by month in the year 2021<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="mmr1_2021" class="section level2 hasAnchor" number="2.12">
+<h2><span class="header-section-number">2.12</span> mmr1_2021<a href="reporte-de-resumen.html#mmr1_2021" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description; Number of mmr1 vaccine doses administered by month in the year 2021<br />
+Field type: Integer<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+}
+});
+});
+</script>
+
+</body>
+
+</html>

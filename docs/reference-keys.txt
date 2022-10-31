@@ -1,0 +1,16 @@
+about
+how-to-use
+reporte-de-resumen
+country
+countrycode
+month
+coding
+dpt1_2019
+dpt3_2019
+mmr1_2019
+dpt1_2020
+dpt3_2020
+mmr1_2020
+dpt1_2021
+dpt3_2021
+mmr1_2021
