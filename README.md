@@ -1,13 +1,25 @@
-Welcome!
+# IM DATA Dictionaries
+This repository contains the data dictionaries for PAHO immunizations data quality and information systems data tables. This is a work in progress. Find the link to the github pages here:  
+[Data Dictionaries](https://im-data-paho.github.io/im-data-dictionaries/cov-19htadf.html)  
 
-This is a minimal example of a book based on R Markdown and **bookdown** (<https://github.com/rstudio/bookdown>).
+# Data Sources
 
-This template provides a skeleton file structure that you can edit to create your book.
+## Demographics
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
+All demographics data is based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.
 
-Additional resources:
+## Vaccination Data
 
-The **bookdown** book: <https://bookdown.org/yihui/bookdown/>
+Sources for vaccination data include:
 
-The **bookdown** package reference site: <https://pkgs.rstudio.com/bookdown>
+1. The [Electronic Joint Reporting Form (eJRF)](https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/who-unicef-joint-reporting-process)
+2. EPI reports
+3. Official data from each country and territory's Government/Ministry of Health/Health Agency
+
+---
+:information_source: Sources used for each specific country and territory are listed at the end of each profile.
+
+---
+
+
+
