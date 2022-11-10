@@ -1,6 +1,6 @@
 # IM DATA Dictionaries
 This repository contains the data dictionaries for PAHO immunizations data quality and information systems data tables. This is a work in progress. Find the link to the github pages here:  
-[Data Dictionaries](https://im-data-paho.github.io/im-data-dictionaries/cov-19htadf.html)  
+[Data Dictionaries](https://im-data-paho.github.io/im-data-dictionaries/index.html)  
 
 # Data Sources
 
