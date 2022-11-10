@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Data table 3 COV-19:HTADF | Data Dictionary for Routine IM</title>
+  <meta name="description" content="Data table 3 COV-19:HTADF | Data Dictionary for Routine IM" />
+  <meta name="generator" content="bookdown 0.29.3 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Data table 3 COV-19:HTADF | Data Dictionary for Routine IM" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Data table 3 COV-19:HTADF | Data Dictionary for Routine IM" />
+  
+  
+  
+
+<meta name="author" content="FPL/IM" />
+
+
+<meta name="date" content="2022-11-10" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="reporte-de-resumen.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a></li>
+<li class="chapter" data-level="2" data-path="reporte-de-resumen.html"><a href="reporte-de-resumen.html"><i class="fa fa-check"></i><b>2</b> Reporte de Resumen</a></li>
+<li class="chapter" data-level="3" data-path="cov-19htadf.html"><a href="cov-19htadf.html"><i class="fa fa-check"></i><b>3</b> COV-19:HTADF</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Dictionary for Routine IM</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="cov-19htadf" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Data table 3</span> COV-19:HTADF<a href="cov-19htadf.html#cov-19htadf" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><strong>Historic Total Age Data Frame</strong><br />
+Weekly consolidate of COVID-19 vaccinations shared by countries by age group. This document contains data from August 2021 for the countries that reported data to the present date (Except on cases where specific date filters were requested for the accompanying data)</p>
+<div id="iso_code" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> ISO_CODE<a href="cov-19htadf.html#iso_code" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Official ISO 3 Letter code for the country.<br />
+Field type: Character string<br />
+Length: 3 Char<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+<p>Examples: AIA, BMU, VEN</p>
+</div>
+<div id="age_group" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> AGE_GROUP<a href="cov-19htadf.html#age_group" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Age group for the accompanying values.
+Field type: Character string pre-codified<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+<div id="coding-1" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Coding<a href="cov-19htadf.html#coding-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><strong>&lt;18</strong>: Cohort of children and adolescents under 18 years of age.</li>
+<li><strong>18-59</strong>: Cohort of adults between 18 and 59 years of age.</li>
+<li><strong>60+</strong>: Cohort of elderly adults aged over 60 years of age</li>
+</ol>
+</div>
+</div>
+<div id="cut_off_data_country" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> CUT_OFF_DATA_COUNTRY<a href="cov-19htadf.html#cut_off_data_country" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Date of country report.<br />
+Field type: Date formatted character string (YYYY-mm-dd)<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+<p>Examples: 2022-11-10, 2021-08-22</p>
+</div>
+<div id="country_name" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> COUNTRY_NAME<a href="cov-19htadf.html#country_name" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Official name of the country in English.<br />
+Field type: Character string<br />
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+<p>Examples: Anguila, Bermuda, Venezuela</p>
+</div>
+<div id="at_least_one" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> AT_LEAST_ONE<a href="cov-19htadf.html#at_least_one" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Number of people vaccinated with at least one dose. This includes people vaccinated with single dose schedules and people vaccinated with the first dose of a multi-dose schedule.<br />
+Field type: Integer
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="complete_sch" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> COMPLETE_SCH<a href="cov-19htadf.html#complete_sch" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Number of people vaccinated with the complete primary series of the COVID-19 vaccine. This includes people vaccinated with single dose schedules and people vaccinated with the complete primary series for multi-dose schedules.<br />
+Field type: Integer
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="additional_1_dose" class="section level2 hasAnchor" number="3.7">
+<h2><span class="header-section-number">3.7</span> ADDITIONAL_1_DOSE<a href="cov-19htadf.html#additional_1_dose" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Number of people vaccinated with the first additional dose after the complete primary series. Often refered as booster dose.<br />
+Field type: Integer
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="additional_2_dose" class="section level2 hasAnchor" number="3.8">
+<h2><span class="header-section-number">3.8</span> ADDITIONAL_2_DOSE<a href="cov-19htadf.html#additional_2_dose" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Number of people vaccinated with the second additional dose after the complete primary series. Often refered as booster dose.<br />
+Field type: Integer
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="n" class="section level2 hasAnchor" number="3.9">
+<h2><span class="header-section-number">3.9</span> n<a href="cov-19htadf.html#n" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Population for the specified target group. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.<br />
+Field type: Integer
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="percent_complete" class="section level2 hasAnchor" number="3.10">
+<h2><span class="header-section-number">3.10</span> PERCENT_COMPLETE<a href="cov-19htadf.html#percent_complete" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Coverage of <strong>COMPLETE_SCH</strong> per 100 people for the specified target group in <strong>AGE_GROUP</strong> column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.<br />
+Field type: Float
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="percent_one" class="section level2 hasAnchor" number="3.11">
+<h2><span class="header-section-number">3.11</span> PERCENT_ONE<a href="cov-19htadf.html#percent_one" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Coverage of <strong>AT_LEAST_ONE</strong> per 100 people for the specified target group in <strong>AGE_GROUP</strong> column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.<br />
+Field type: Float
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="percent_additional_1" class="section level2 hasAnchor" number="3.12">
+<h2><span class="header-section-number">3.12</span> PERCENT_ADDITIONAL_1<a href="cov-19htadf.html#percent_additional_1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Coverage of <strong>ADDITIONAL_1_DOSE</strong> per 100 people for the specified target group in <strong>AGE_GROUP</strong> column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.<br />
+Field type: Float
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+</div>
+<div id="percent_additional_2" class="section level2 hasAnchor" number="3.13">
+<h2><span class="header-section-number">3.13</span> PERCENT_ADDITIONAL_2<a href="cov-19htadf.html#percent_additional_2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Description: Coverage of <strong>ADDITIONAL_2_DOSE</strong> per 100 people for the specified target group in <strong>AGE_GROUP</strong> column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.<br />
+Field type: Float
+Length: Unspecified<br />
+Data missing coding: <em>&lt;blank&gt;</em></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="reporte-de-resumen.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+}
+});
+});
+</script>
+
+</body>
+
+</html>

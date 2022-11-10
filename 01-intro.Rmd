@@ -22,7 +22,7 @@ Examples: AIA, BMU, VEN
 
 ## month
 
-Description; Month name in spanish  
+Description: Month name in spanish  
 Field type: Character string pre-codified  
 Length: Unspecified  
 Data missing coding: *\<blank\>* 
@@ -45,42 +45,42 @@ Data missing coding: *\<blank\>*
 
 ## dpt1_2019
 
-Description; Number of DPT1 vaccine doses administered by month in the year 2019  
+Description: Number of DPT1 vaccine doses administered by month in the year 2019  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
 
 ## dpt3_2019
 
-Description; Number of DPT3 vaccine doses administered by month in the year 2019  
+Description: Number of DPT3 vaccine doses administered by month in the year 2019  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
 
 ## mmr1_2019
 
-Description; Number of mmr1 vaccine doses administered by month in the year 2019  
+Description: Number of mmr1 vaccine doses administered by month in the year 2019  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
 
 ## dpt1_2020
 
-Description; Number of DPT1 vaccine doses administered by month in the year 2020  
+Description: Number of DPT1 vaccine doses administered by month in the year 2020  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
 
 ## dpt3_2020
 
-Description; Number of DPT3 vaccine doses administered by month in the year 2020  
+Description: Number of DPT3 vaccine doses administered by month in the year 2020  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
 
 ## mmr1_2020
 
-Description; Number of mmr1 vaccine doses administered by month in the year 2020  
+Description: Number of mmr1 vaccine doses administered by month in the year 2020  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
@@ -88,21 +88,21 @@ Data missing coding: *\<blank\>*
 
 ## dpt1_2021
 
-Description; Number of DPT1 vaccine doses administered by month in the year 2021  
+Description: Number of DPT1 vaccine doses administered by month in the year 2021  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
 
 ## dpt3_2021
 
-Description; Number of DPT3 vaccine doses administered by month in the year 2021    
+Description: Number of DPT3 vaccine doses administered by month in the year 2021    
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  
 
 ## mmr1_2021
 
-Description; Number of mmr1 vaccine doses administered by month in the year 2021  
+Description: Number of mmr1 vaccine doses administered by month in the year 2021  
 Field type: Integer  
 Length: Unspecified  
 Data missing coding: *\<blank\>*  

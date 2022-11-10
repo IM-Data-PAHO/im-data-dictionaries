@@ -1,0 +1,106 @@
+# COV-19:HTADF
+**Historic Total Age Data Frame**  
+Weekly consolidate of COVID-19 vaccinations shared by countries by age group. This document contains data from August 2021 for the countries that reported data to the present date (Except on cases where specific date filters were requested for the accompanying data)
+
+## ISO_CODE
+
+Description: Official ISO 3 Letter code for the country.  
+Field type: Character string   
+Length: 3 Char  
+Data missing coding: *\<blank\>* 
+
+Examples: AIA, BMU, VEN  
+
+## AGE_GROUP
+
+Description: Age group for the accompanying values. 
+Field type: Character string pre-codified  
+Length: Unspecified  
+Data missing coding: *\<blank\>* 
+
+### Coding
+
+1. **<18**: Cohort of children and adolescents under 18 years of age.
+2. **18-59**: Cohort of adults between 18 and 59 years of age.
+3. **60+**: Cohort of elderly adults aged over 60 years of age
+
+## CUT_OFF_DATA_COUNTRY  
+
+Description: Date of country report.  
+Field type: Date formatted character string (YYYY-mm-dd)   
+Length: Unspecified  
+Data missing coding: *\<blank\>* 
+
+Examples: 2022-11-10, 2021-08-22  
+
+## COUNTRY_NAME  
+
+Description: Official name of the country in English.  
+Field type: Character string  
+Length: Unspecified  
+Data missing coding: *\<blank\>* 
+
+Examples: Anguila, Bermuda, Venezuela  
+
+
+## AT_LEAST_ONE 
+
+Description: Number of people vaccinated with at least one dose. This includes people vaccinated with single dose schedules and people vaccinated with the first dose of a multi-dose schedule.  
+Field type: Integer
+Length: Unspecified  
+Data missing coding: *\<blank\>* 
+
+
+
+## COMPLETE_SCH
+
+Description: Number of people vaccinated with the complete primary series of the COVID-19 vaccine. This includes people vaccinated with single dose schedules and people vaccinated with the complete primary series for multi-dose schedules.  
+Field type: Integer
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## ADDITIONAL_1_DOSE  
+Description: Number of people vaccinated with the first additional dose after the complete primary series. Often refered as booster dose.  
+Field type: Integer
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## ADDITIONAL_2_DOSE  
+Description: Number of people vaccinated with the second additional dose after the complete primary series. Often refered as booster dose.  
+Field type: Integer
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## n 
+Description: Population for the specified target group. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.  
+Field type: Integer
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## PERCENT_COMPLETE
+Description: Coverage of **COMPLETE_SCH** per 100 people for the specified target group in **AGE_GROUP** column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.  
+Field type: Float
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+
+## PERCENT_ONE
+Description: Coverage of **AT_LEAST_ONE** per 100 people for the specified target group in **AGE_GROUP** column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.  
+Field type: Float
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+## PERCENT_ADDITIONAL_1
+Description: Coverage of **ADDITIONAL_1_DOSE** per 100 people for the specified target group in **AGE_GROUP** column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.  
+Field type: Float
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+
+## PERCENT_ADDITIONAL_2
+Description: Coverage of **ADDITIONAL_2_DOSE** per 100 people for the specified target group in **AGE_GROUP** column. Based on the United Nations (UN) Population Prospects for 2021 and projections from the United States (US) Census Bureau for countries with 100,000 or fewer inhabitants.  
+Field type: Float
+Length: Unspecified  
+Data missing coding: *\<blank\>*  
+
+
